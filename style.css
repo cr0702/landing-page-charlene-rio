@@ -1,0 +1,92 @@
+.nav {
+    width:100%;
+    height:80px;
+    background-color:white; 
+    position:fixed;
+    top:0;
+    left:0;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.3876); 
+    z-index: 9999;
+    text-align: right;
+}
+
+/* On ne cible que les balises UL qui se trouvent dans une classe NAV */
+.nav ul {
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.nav ul li {
+    list-style-type:none;
+    display:inline-block;
+    /* Display:block signifie qe les éléments prennent à la ligne pour eux tous seuls; Display: inline-block signifie que les élémenrs peuvent se mettre sur la même ligne, s'il y a e la place */ 
+    margin-left:20px;
+    margin-right:20px;
+    line-height:80px; /* Un line-height de la même valeur que la hauteur du bloc permet de centrer verticalement le texte dans ce bloc */
+    color:#555555;
+        font-size:14px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px; 
+    cursor:pointer; 
+    transition: all ease-in-out 0.3s;
+}
+
+/* Rollover*/ 
+.nav ul li:hover {
+    color:darkgrey; 
+}
+
+.nav ul li:hover .roll {
+    width:100%;
+}
+
+.social {
+    position:absolute;
+    top:0;
+    right:20px;
+}
+
+.social .fab {
+    font-size:20px;
+    color:#555;
+    line-height:80px;
+    margin:0 15px; /* 0 en haut et en bas, 15px sur les côtés */ 
+    cursor: pointer;
+    
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.section
+{
+    text-align: justify;
+    
+}
+
+#footer mt-auto py-3 {
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    background-color: brown;
+  }
+
+ 
+
+.card-deck{
+
+    justify-content: justify;
+    text-align: center;
+}
+
+.question{
+    text-align: center;
+    border-image: round;
+}
